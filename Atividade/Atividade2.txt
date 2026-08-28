@@ -1,0 +1,14 @@
+﻿namespace Abstracao
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            Aluno aluno = new Aluno("José", 4202, 7.5, 9.0);
+            aluno.CalcularMedia();
+
+            Console.ReadKey();
+
+        }
+    }
+}
