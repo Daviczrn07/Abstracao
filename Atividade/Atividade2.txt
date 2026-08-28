@@ -5,8 +5,12 @@
         static void Main(string[] args)
         {
             Aluno aluno = new Aluno("José", 4202, 7.5, 9.0);
-            aluno.CalcularMedia();
-
+            double Media = aluno.CalcularMedia();
+            Console.WriteLine($"Nome:{aluno.Nome}");
+            Console.WriteLine($"Matricula: {aluno.Matricula}");
+            Console.WriteLine($"Nota 1: {aluno.Nota1}");
+            Console.WriteLine($"Nota 2: {aluno.Nota2}");
+            Console.WriteLine($"a media das notas do aluno {aluno.Nome} é:  {Media}");
             Console.ReadKey();
 
         }

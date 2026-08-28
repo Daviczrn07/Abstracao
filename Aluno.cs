@@ -19,14 +19,12 @@ namespace Abstracao
             Nota2 = n2;
         }
 
-        public void CalcularMedia()
+        public double CalcularMedia()
         {
-            Console.WriteLine($"Nome:{Nome}");
-            Console.WriteLine($"Matricula: {Matricula}");
-            Console.WriteLine($"Nota 1: {Nota1}");
-            Console.WriteLine($"Nota 2: {Nota2}");
+
             double Media = (Nota1 + Nota2) / 2;
-            Console.WriteLine($"a media das notas do aluno {Nome} é:  {Media}");
+            return Media;
+
 
         }
 
